@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BlankFragment2">
+
+    <ImageView
+        android:id="@+id/ivcontact"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="130dp"
+        android:src="@drawable/phone"
+        />
+
+    <TextView
+        android:id="@+id/tvphone"
+        android:layout_width="107dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="150dp"
+        android:text="phone"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:textSize="20dp"
+        android:layout_width="107dp"
+        android:layout_height="46dp"
+        android:layout_marginLeft="150dp"
+        android:text="name" />
+
+
+
+</LinearLayout>
