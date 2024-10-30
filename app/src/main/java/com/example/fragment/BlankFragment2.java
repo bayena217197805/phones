@@ -50,8 +50,8 @@ public class BlankFragment2 extends Fragment {
     return view;
     }
     public void updateTexts(String name, String phone, int imageResId) {
-         tvName.setText(name);
-         tvPhone.setText(phone);
-         ivContact.setImageResource(imageResId);
+        tvName.setText(name);
+        tvPhone.setText(phone);
+        ivContact.setImageResource(imageResId);
     }
 }
