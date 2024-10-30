@@ -48,6 +48,9 @@ public class MainActivity extends AppCompatActivity implements Personadapter.Ite
     @Override
     public void onItemSelected(int index) {
         Person selectedPerson = pepple.get(index);
+        if(selectedPerson.getImage()==0){
+            selectedPerson.setImage(R.drawable.baseline_account_box_24);
+        }
         detailfrag.updateTexts(selectedPerson.getName(), selectedPerson.getPhone(), selectedPerson.getImage());
 
     }
